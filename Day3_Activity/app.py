@@ -84,9 +84,9 @@ if options == "Home" :
 elif options == "About Us" :
      st.title('News Summarizer Tool')
      st.subheader("About Us")
-     st.write("# Robby Jean Pombo")
-     st.write("## AI Engineer at Accenture")
-     st.write("## Connect with me via Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
+     st.text("Robby Jean Pombo")
+     st.text("AI Engineer at Accenture")
+     st.text("Connect with me via Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
      st.write("\n")
 
 
