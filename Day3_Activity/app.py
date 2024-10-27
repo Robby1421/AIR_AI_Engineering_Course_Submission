@@ -84,10 +84,9 @@ if options == "Home" :
 elif options == "About Us" :
      st.title('News Summarizer Tool')
      st.subheader("About Us")
-     st.write("# Danielle Bagaforo Meer")
-     #st.image('images/Meer.png')
-     st.write("## AI First Bootcamp Instructor")
-     st.text("Connect with me via Linkedin : https://www.linkedin.com/in/algorexph/")
+     st.write("# Robby Jean Pombo")
+     st.write("# AI Engineer at Accenture")
+     st.text("Connect with me via Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
      st.text("Kaggle Account : https://www.kaggle.com/daniellebagaforomeer")
      st.write("\n")
 
