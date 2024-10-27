@@ -86,7 +86,7 @@ elif options == "About Us" :
      st.subheader("About Us")
      st.write("### Robby Jean Pombo")
      st.write("### AI Engineer at Accenture")
-     st.write"### Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
+     st.write("### Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
      st.write("\n")
 
 
