@@ -23,7 +23,7 @@ warnings.filterwarnings("ignore")
 st.set_page_config(page_title="News Summarizer Tool", page_icon="", layout="wide")
 
 with st.sidebar :
-    st.image('images/White_AI Republic.png')
+    #st.image('images/White_AI Republic.png')
     openai.api_key = st.text_input('Enter OpenAI API token:', type='password')
     if not (openai.api_key.startswith('sk-') and len(openai.api_key)==164):
         st.warning('Please enter your OpenAI API token!', icon='⚠️')
@@ -85,7 +85,7 @@ elif options == "About Us" :
      st.title('News Summarizer Tool')
      st.subheader("About Us")
      st.write("# Danielle Bagaforo Meer")
-     st.image('images/Meer.png')
+     #st.image('images/Meer.png')
      st.write("## AI First Bootcamp Instructor")
      st.text("Connect with me via Linkedin : https://www.linkedin.com/in/algorexph/")
      st.text("Kaggle Account : https://www.kaggle.com/daniellebagaforomeer")
