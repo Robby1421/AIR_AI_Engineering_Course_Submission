@@ -29,7 +29,7 @@ st.markdown("""
         background-color: #f5e6d3;
     }
     .stApp {
-        background-image: url('https://wallpapercave.com/wp/wp6832156.png');
+        background-image: url('https://wallpapercave.com/wp/wp1837539.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -87,7 +87,7 @@ if options == "Tool" :
     st.markdown("""
             <style>
             [data-testid="stAppViewContainer"] > .main {
-                background-image: url("https://wallpapercave.com/wp/wp2123909.jpg);
+                background-image: url("https://wallpapercave.com/wp/wp1837539.jpg";
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -132,7 +132,7 @@ elif options == "AOT Summarizer" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('https://wallpapercave.com/wp/wp2123909.jpg');
+                background-image: url('https://wallpapercave.com/wp/wp1837539.jpg');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -201,7 +201,7 @@ elif options == "Character Finder" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('https://wallpapercave.com/wp/wp2123909.jpg');
+                background-image: url('https://wallpapercave.com/wp/wp1837539.jpg');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -287,7 +287,7 @@ elif options == "Secret Weapon" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('https://wallpapercave.com/wp/wp2123909.jpg');
+                background-image: url('https://wallpapercave.com/wp/wp1837539.jpg');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
