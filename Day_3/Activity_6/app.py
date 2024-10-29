@@ -65,7 +65,7 @@ with st.sidebar :
 
     options = option_menu(
         "🔰 Attack On Titan Dashboard", 
-        ["Tool", "About Us", "AOT News Summarizer", "Character Finder", "Secret Weapon"],
+        ["Tool", "About Us", "AOT Summarizer", "Character Finder", "Secret Weapon"],
         icons = ['tools', 'compass', 'search', 'search', 'lock'],
         menu_icon = "🔰", 
         default_index = 0,
@@ -128,7 +128,7 @@ elif options == "About Us" :
      st.write("\n")
 
 
-elif options == "AOT News Summarizer" :
+elif options == "AOT Summarizer" :
      st.markdown("""
             <style>
             .stApp {
@@ -212,22 +212,18 @@ elif options == "Character Finder" :
      st.title('AI Persona: Character Analysis')
      col1, col2 = st.columns([1, 1])
     
-     with col1:
-        uploaded_file = st.file_uploader("Upload an image of an AOT Character", type=['png', 'jpg', 'jpeg'])
-        if uploaded_file is not None:
-            st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)    
+     # with col1:
+     #    uploaded_file = st.file_uploader("Upload an image of an AOT Character", type=['png', 'jpg', 'jpeg'])
+     #    if uploaded_file is not None:
+     #        st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)    
 
-    
      with col2:
         text_input = st.text_area("Get to know the character", placeholder="Enter text here...")
     
      submit_button = st.button("Process Cultural Material")
 
-     if submit_button:
-        if uploaded_file is None and not text_input:
-            st.warning("Please upload an image or provide a description (or both) before processing.")
-        else:
-            with st.spinner("Analyzing character..."):
+      if submit_button:
+        with st.spinner("Generating Summary"):
                 System_Prompt = """
                 You are a seasoned analyst of character dynamics in the world of Attack on Titan, tasked with unraveling the complex motivations, relationships, and cultural contexts of key characters. Your objective is to provide deep insights into their development and societal impact, employing a meticulous approach that honors the intricate storytelling of the series.
 
