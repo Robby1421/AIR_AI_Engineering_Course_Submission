@@ -201,16 +201,16 @@ elif options == "Character Finder" :
             </style> """, 
         unsafe_allow_html=True)
          
-     st.title('AI Persona: Who is this Character?')
+     st.title('AI Persona: Character Analysis')
      col1, col2 = st.columns([1, 1])
     
      with col1:
-        uploaded_file = st.file_uploader("Upload an image of cultural artifact", type=['png', 'jpg', 'jpeg'])
+        uploaded_file = st.file_uploader("Upload an image of a character you're curious about", type=['png', 'jpg', 'jpeg'])
         if uploaded_file is not None:
             st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
     
      with col2:
-        text_input = st.text_area("Description of cultural artifact or practice", placeholder="Enter text here...")
+        text_input = st.text_area("Get to know the character", placeholder="Enter text here...")
     
      submit_button = st.button("Process Cultural Material")
 
@@ -256,7 +256,7 @@ Summarize your character analysis in a structured format, emphasizing accuracy, 
                 """
                 user_message = ""
                 if uploaded_file is not None:
-                    user_message += "An image of a cultural artifact has been uploaded. "
+                    user_message += "An image has been uploaded. "
                 if text_input:
                     user_message += f"Description: {text_input}"
 
@@ -268,7 +268,7 @@ Summarize your character analysis in a structured format, emphasizing accuracy, 
                 struct.append({"role": "assistant", "content": response})
                 
                 st.success("Analysis completed successfully!")
-                st.subheader("Cultural Analysis:")
+                st.subheader("Character Analysis:")
                 st.write(response)
 
 
