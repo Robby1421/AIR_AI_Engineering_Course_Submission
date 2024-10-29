@@ -29,7 +29,7 @@ st.markdown("""
         background-color: #f5e6d3;
     }
     .stApp {
-        background-image: url('AOT_BG.jpg');
+        background-image: url('Day_3/Activity_6/images/AOT_BG.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
