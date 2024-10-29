@@ -220,7 +220,7 @@ elif options == "Character Finder" :
      with col2:
         text_input = st.text_area("Get to know the character", placeholder="Enter text here...")
     
-     submit_button = st.button("Process Cultural Material")
+     submit_button = st.button("Process Information")
 
      if submit_button:
         if uploaded_file is None and not text_input:
