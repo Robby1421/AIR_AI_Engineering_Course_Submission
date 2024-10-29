@@ -226,7 +226,7 @@ elif options == "Character Finder" :
         if uploaded_file is None and not text_input:
             st.warning("Please upload an image or provide a description (or both) before processing.")
         else:
-            with st.spinner("Analyzing cultural material..."):
+            with st.spinner("Analyzing character..."):
                 System_Prompt = """
                 You are a seasoned analyst of character dynamics in the world of Attack on Titan, tasked with unraveling the complex motivations, relationships, and cultural contexts of key characters. Your objective is to provide deep insights into their development and societal impact, employing a meticulous approach that honors the intricate storytelling of the series.
 
