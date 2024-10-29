@@ -87,7 +87,7 @@ if options == "Artifact Analysis" :
     st.markdown("""
             <style>
             [data-testid="stAppViewContainer"] > .main {
-                background-image: url("https://images8.alphacoders.com/505/thumb-1920-505616.png");
+                background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5c58f25d-bb13-4fe6-bbfa-4f146ec3785a/ddak8qp-2ba7f7d5-84de-40a4-944b-2dcdece92e62.png/v1/fit/w_828,h_466,q_70,strp/attck_on_titan___the_gang__face__by_vk_for_da_win_ddak8qp-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzVjNThmMjVkLWJiMTMtNGZlNi1iYmZhLTRmMTQ2ZWMzNzg1YVwvZGRhazhxcC0yYmE3ZjdkNS04NGRlLTQwYTQtOTQ0Yi0yZGNkZWNlOTJlNjIucG5nIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.4hX1cvDZD46iVZUKWrEIIpESgs_FKPNSTLibGImvVbI");
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -133,7 +133,7 @@ elif options == "Preservation Model" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('https://images8.alphacoders.com/505/thumb-1920-505616.png');
+                background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5c58f25d-bb13-4fe6-bbfa-4f146ec3785a/ddak8qp-2ba7f7d5-84de-40a4-944b-2dcdece92e62.png/v1/fit/w_828,h_466,q_70,strp/attck_on_titan___the_gang__face__by_vk_for_da_win_ddak8qp-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzVjNThmMjVkLWJiMTMtNGZlNi1iYmZhLTRmMTQ2ZWMzNzg1YVwvZGRhazhxcC0yYmE3ZjdkNS04NGRlLTQwYTQtOTQ0Yi0yZGNkZWNlOTJlNjIucG5nIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.4hX1cvDZD46iVZUKWrEIIpESgs_FKPNSTLibGImvVbI');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -193,7 +193,7 @@ elif options == "AI Archaeologist" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('https://images8.alphacoders.com/505/thumb-1920-505616.png');
+                background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5c58f25d-bb13-4fe6-bbfa-4f146ec3785a/ddak8qp-2ba7f7d5-84de-40a4-944b-2dcdece92e62.png/v1/fit/w_828,h_466,q_70,strp/attck_on_titan___the_gang__face__by_vk_for_da_win_ddak8qp-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzVjNThmMjVkLWJiMTMtNGZlNi1iYmZhLTRmMTQ2ZWMzNzg1YVwvZGRhazhxcC0yYmE3ZjdkNS04NGRlLTQwYTQtOTQ0Yi0yZGNkZWNlOTJlNjIucG5nIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.4hX1cvDZD46iVZUKWrEIIpESgs_FKPNSTLibGImvVbI);
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -277,7 +277,7 @@ elif options == "Indiana Jones" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('AOT_BG.jpg');
+                background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5c58f25d-bb13-4fe6-bbfa-4f146ec3785a/ddak8qp-2ba7f7d5-84de-40a4-944b-2dcdece92e62.png/v1/fit/w_828,h_466,q_70,strp/attck_on_titan___the_gang__face__by_vk_for_da_win_ddak8qp-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzVjNThmMjVkLWJiMTMtNGZlNi1iYmZhLTRmMTQ2ZWMzNzg1YVwvZGRhazhxcC0yYmE3ZjdkNS04NGRlLTQwYTQtOTQ0Yi0yZGNkZWNlOTJlNjIucG5nIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.4hX1cvDZD46iVZUKWrEIIpESgs_FKPNSTLibGImvVbI');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
