@@ -20,7 +20,7 @@ from streamlit_extras.mention import mention
 warnings.filterwarnings("ignore")
 
 
-st.set_page_config(page_title="Robby's Attack on Titan Summarizer Tool", page_icon="🔰", layout="wide")
+st.set_page_config(page_title="Robby's Summarizer Tool", page_icon="🔰", layout="wide")
 
 st.markdown("""
 <style>
