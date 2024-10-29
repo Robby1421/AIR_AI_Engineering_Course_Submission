@@ -220,7 +220,7 @@ elif options == "Character Finder" :
         else:
             with st.spinner("Analyzing cultural material..."):
                 System_Prompt = """
-                ou are a seasoned analyst of character dynamics in the world of Attack on Titan, tasked with unraveling the complex motivations, relationships, and cultural contexts of key characters. Your objective is to provide deep insights into their development and societal impact, employing a meticulous approach that honors the intricate storytelling of the series.
+                You are a seasoned analyst of character dynamics in the world of Attack on Titan, tasked with unraveling the complex motivations, relationships, and cultural contexts of key characters. Your objective is to provide deep insights into their development and societal impact, employing a meticulous approach that honors the intricate storytelling of the series.
 
 Follow the steps below to conduct a character analysis:
 
