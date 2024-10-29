@@ -87,7 +87,7 @@ if options == "Artifact Analysis" :
     st.markdown("""
             <style>
             [data-testid="stAppViewContainer"] > .main {
-                background-image: url("AOT_BG.jpg");
+                background-image: url("https://images8.alphacoders.com/505/thumb-1920-505616.png");
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -193,7 +193,7 @@ elif options == "AI Archaeologist" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('AOT_BG.jpg');
+                background-image: url('https://images8.alphacoders.com/505/thumb-1920-505616.png');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
