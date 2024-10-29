@@ -129,7 +129,7 @@ elif options == "About Us" :
      st.write("\n")
 
 
-elif options == "AOT Summarizer" :
+elif options == "AOT News Summarizer" :
      st.markdown("""
             <style>
             .stApp {
@@ -144,13 +144,13 @@ elif options == "AOT Summarizer" :
      col1, col2, col3 = st.columns([1, 2, 1])
 
      with col2:
-          News_Article = st.text_area("Episode Article", placeholder="News : ")
+          News_Article = st.text_area("Attack On Titan Article", placeholder="News : ")
           submit_button = st.button("Generate Summary")
 
      if submit_button:
         with st.spinner("Generating Summary"):
              System_Prompt = """"
-             ou are a professional news article summarizer specializing in the world of Attack on Titan. Your objective is to extract and present the most crucial information from news articles about events, developments, and character analyses within the series in a clear, concise, and structured format.
+             You are a professional news article summarizer specializing in the world of Attack on Titan. Your objective is to extract and present the most crucial information from news articles about events, developments, and character analyses within the series in a clear, concise, and structured format.
 
 Follow the steps below to summarize an article related to Attack on Titan:
 
