@@ -51,7 +51,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar :
-    st.image('Day_3_Activity_6/images/AOT_LOGO.png') #AI_
+    st.image('Day_3/Activity_6/images/AOT_LOGO.png') #AI_
     openai.api_key = st.text_input('Enter OpenAI API token:', type='password')
     if not (openai.api_key.startswith('sk-') and len(openai.api_key)==164):
         st.warning('Please enter your OpenAI API token!', icon='⚠️')
