@@ -123,7 +123,7 @@ elif options == "About Us" :
      st.title('The Team')
      st.subheader("About Us")
      st.write("# Robby Jean Pombo")
-     #st.image('AI_First_Day_3_Activity_4/images/jiu.gen_httpss.mj.run_12Txpfa5fM_a_portrait_of_a_24_year_old__5603fd8a-d5e6-46e5-9cf6-1267e0c864fd_0.png')
+     st.image('https://media.licdn.com/dms/image/v2/C4D03AQH9eNaI91LhcQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655685408375?e=1735776000&v=beta&t=TNKxs7wPK4pMtYK1RRMct_lgyVa97sD-xVwv_44TKFU')
      st.write("## AI/ML Engineer")
      st.text("Connect with me via Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
      st.write("\n")
