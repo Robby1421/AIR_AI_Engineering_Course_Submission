@@ -65,7 +65,7 @@ with st.sidebar :
 
     options = option_menu(
         "🔰 Attack On Titan Dashboard", 
-        ["Tool", "About Us", "Episode Summarizer", "Character Finder", "Plot Twist"],
+        ["Tool", "About Us", "AOT Summarizer", "Character Finder", "Plot Twist"],
         icons = ['tools', 'user', 'search', 'search', 'upload'],
         menu_icon = "🔰", 
         default_index = 0,
@@ -95,7 +95,7 @@ if options == "Tool" :
             </style> """, 
         unsafe_allow_html=True)
 
-    st.title('Amber\'s News Summarizer Tool')
+    st.title('Robby\'s News Summarizer Tool')
     st.write("Welcome to the News Article Summarizer Tool, designed to provide you with clear, concise, and well-structured summaries of news articles. This tool is ideal for readers who want to quickly grasp the essential points of any news story without wading through lengthy articles. Whether you’re catching up on global events, diving into business updates, or following the latest political developments, this summarizer delivers all the important details in a brief, easily digestible format.")
     st.write("## What the Tool Does")
     st.write("The News Article Summarizer Tool reads and analyzes full-length news articles, extracting the most critical information and presenting it in a structured manner. It condenses lengthy pieces into concise summaries while maintaining the integrity of the original content. This enables users to quickly understand the essence of any news story.")
@@ -129,7 +129,7 @@ elif options == "About Us" :
      st.write("\n")
 
 
-elif options == "Preservation Model" :
+elif options == "AOT Summarizer" :
      st.markdown("""
             <style>
             .stApp {
