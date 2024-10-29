@@ -121,7 +121,7 @@ if options == "Tool" :
    
 elif options == "About Us" :
      #st.title('The Team')
-     st.subheader("About Us")
+     st.write("## About Us")
      st.write("## Robby Jean Pombo")
      st.image('https://media.licdn.com/dms/image/v2/C4D03AQH9eNaI91LhcQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655685408375?e=1735776000&v=beta&t=TNKxs7wPK4pMtYK1RRMct_lgyVa97sD-xVwv_44TKFU')
      st.write("## AI/ML Engineer")
