@@ -189,7 +189,7 @@ Once you have processed the article following these steps, present the summary i
              st.write(response)
 
 
-elif options == "AI Archaeologist" :
+elif options == "Character Finder" :
      st.markdown("""
             <style>
             .stApp {
@@ -271,7 +271,7 @@ elif options == "AI Archaeologist" :
 
 
 
-elif options == "Indiana Jones" :
+elif options == "Plot Twist" :
     #  image_path = os.path.abspath('AI_First_Day_3_Activity_4/images/indiana_jones_background_by_karllis_d5hnq13-fullview.jpg')
     #  image_url = f'file://{image_path}'
      st.markdown("""
