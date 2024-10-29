@@ -296,7 +296,7 @@ elif options == "Secret Weapon" :
         unsafe_allow_html=True)
     
      st.title('''Levi Ackerman's How to Get Away with Titans''')
-     st.subheader("The Quest") 
+     st.subheader("The Quest: Getting to Know the Titans") 
      col1, col2 = st.columns([1, 1])
     
      with col1:
