@@ -201,7 +201,7 @@ elif options == "Character Finder" :
             </style> """, 
         unsafe_allow_html=True)
          
-     st.title('AI Persona: Cultural Heritage Preservation and Oral History Curator Agent')
+     st.title('AI Persona: Who is this Character?')
      col1, col2 = st.columns([1, 1])
     
      with col1:
