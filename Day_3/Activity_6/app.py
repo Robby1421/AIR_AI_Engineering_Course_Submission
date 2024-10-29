@@ -123,7 +123,8 @@ elif options == "About Us" :
      #st.title('The Team')
      st.write("## About Us")
      st.write("## Robby Jean Pombo")
-     st.write("## AI/ML Engineer")
+     st.write("## AI/ML Engineer at Accenture")
+     st.image('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a285f326-1082-4223-8c5a-204da3234900/db4rbpr-e341b2d1-4765-4b02-ba07-1d20a6685e94.jpg/v1/fill/w_1192,h_670,q_70,strp/fanart_of_mikasa_ackerman_from_attack_on_titan__by_azthaboss_db4rbpr-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYTI4NWYzMjYtMTA4Mi00MjIzLThjNWEtMjA0ZGEzMjM0OTAwXC9kYjRyYnByLWUzNDFiMmQxLTQ3NjUtNGIwMi1iYTA3LTFkMjBhNjY4NWU5NC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.lOmNVikv803CY-bakcImHMcHCu3SzpB3iTPssLuXAGg')
      st.write("## Connect with me via Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
      st.write("\n")
 
