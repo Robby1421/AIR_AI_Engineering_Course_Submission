@@ -51,7 +51,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar :
-    st.image('Day_4_Activity_4/images/AOT_LOGO.png') #AI_
+    st.image('Day_3_Activity_6/images/AOT_LOGO.png') #AI_
     openai.api_key = st.text_input('Enter OpenAI API token:', type='password')
     if not (openai.api_key.startswith('sk-') and len(openai.api_key)==164):
         st.warning('Please enter your OpenAI API token!', icon='⚠️')
@@ -66,7 +66,7 @@ with st.sidebar :
     options = option_menu(
         "🔰 Archaeological Dashboard", 
         ["Artifact Analysis", "About Us", "Episode Summarizer", "Character Finder", "Plot Twist"],
-        icons = ['⚔️', '🧣', '🗝️', '𓆰𓆪', '🕊],
+        icons = ['tools', 'tools', 'tools', 'tools', 'tools'],
         menu_icon = "🔰", 
         default_index = 0,
         styles = {
