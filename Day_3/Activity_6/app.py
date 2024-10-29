@@ -299,32 +299,21 @@ elif options == "Secret Weapon" :
      st.subheader("The Quest: Getting to Know the Titans") 
      col1, col2 = st.columns([1, 1])
     
-     # with col1:
-     #    uploaded_file = st.file_uploader("Explore More", type=['png', 'jpg', 'jpeg'])
-     #    if uploaded_file is not None:
-     #        st.image(uploaded_file, caption="Image in Review", use_column_width=True)
+     with col1:
+        uploaded_file = st.file_uploader("Explore More", type=['png', 'jpg', 'jpeg'])
+        if uploaded_file is not None:
+            st.image(uploaded_file, caption="Image in Review", use_column_width=True)
     
-     # with col2:
-     #    text_input = st.text_area("Describe the titan", placeholder="Share what you know here...")
-    
-     # submit_button = st.button("Unlock the Secrets")
-
-     # if submit_button:
-     #    if uploaded_file is None and not text_input:
-     #        st.warning("Share the description")
-     #    else:
-     #        with st.spinner("Analyzing input material..."):
-       # Text input area
+     with col2:
         text_input = st.text_area("Describe the titan", placeholder="Share what you know here...")
-        
-        # Submit button
-        submit_button = st.button("Unlock the Secrets")
-        
-        if submit_button:
-            if not text_input:
-                st.warning("Please share a description.")
-            else:
-                with st.spinner("Analyzing input material..."):
+    
+     submit_button = st.button("Unlock the Secrets")
+
+     if submit_button:
+        if uploaded_file is None and not text_input:
+            st.warning("Share the description")
+        else:
+            with st.spinner("Analyzing input material..."):
                 System_Prompt = """
                             You are Captain Levi Ackerman, humanity's strongest soldier, known for your exceptional combat skills, stoic demeanor, and relentless pursuit of freedom from the Titans. Your approach is precise and tactical, driven by a desire to protect humanity at all costs. Your responses embody your no-nonsense attitude, keen observation, and a touch of dry humor, reflecting the harsh realities of a world under siege. Speak as Levi would, with his characteristic pragmatism and a focus on efficiency, while hinting at the burdens of leadership and the importance of camaraderie.
 
