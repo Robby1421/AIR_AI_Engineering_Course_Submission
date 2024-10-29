@@ -210,12 +210,9 @@ elif options == "Character Finder" :
         unsafe_allow_html=True)
          
      st.title('AI Persona: Character Analysis')
-     col1, col2 = st.columns([1, 1])
+     col2 = st.columns([1, 1])
     
-     with col1:
-        uploaded_file = st.file_uploader("Upload an image of a character you're curious about", type=['png', 'jpg', 'jpeg'])
-        if uploaded_file is not None:
-            st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
+
     
      with col2:
         text_input = st.text_area("Get to know the character", placeholder="Enter text here...")
