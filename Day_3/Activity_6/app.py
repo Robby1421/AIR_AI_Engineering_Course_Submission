@@ -64,8 +64,8 @@ with st.sidebar :
         with r : st.empty()
 
     options = option_menu(
-        "🔰 AOT Dashboard", 
-        ["About the Tool", "About Us", "Episode Summarizer", "Character Finder", "Plot Twist"],
+        "🔰 Attack On Titan Dashboard", 
+        ["Tool", "About Us", "Episode Summarizer", "Character Finder", "Plot Twist"],
         icons = ['tools', 'user', 'search', 'search', 'upload'],
         menu_icon = "🔰", 
         default_index = 0,
@@ -83,7 +83,7 @@ if 'chat_session' not in st.session_state:
     st.session_state.chat_session = None  # Placeholder for your chat session initialization
 
 # Options : Home
-if options == "Artifact Analysis" :
+if options == "Tool" :
     st.markdown("""
             <style>
             [data-testid="stAppViewContainer"] > .main {
