@@ -133,7 +133,7 @@ elif options == "Preservation Model" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('AOT_BG.jpg');
+                background-image: url('https://images8.alphacoders.com/505/thumb-1920-505616.png');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
