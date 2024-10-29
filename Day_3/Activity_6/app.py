@@ -65,8 +65,8 @@ with st.sidebar :
 
     options = option_menu(
         "🔰 Attack On Titan Dashboard", 
-        ["Tool", "About Us", "AOT Summarizer", "Character Finder", "Plot Twist"],
-        icons = ['tools', 'lock', 'search', 'search', 'upload'],
+        ["Tool", "About Us", "AOT Summarizer", "Character Finder", "Secret Weapon"],
+        icons = ['tools', 'compass', 'search', 'search', 'lock'],
         menu_icon = "🔰", 
         default_index = 0,
         styles = {
@@ -271,7 +271,7 @@ elif options == "Character Finder" :
 
 
 
-elif options == "Plot Twist" :
+elif options == "Secret Weapon" :
     #  image_path = os.path.abspath('AI_First_Day_3_Activity_4/images/indiana_jones_background_by_karllis_d5hnq13-fullview.jpg')
     #  image_url = f'file://{image_path}'
      st.markdown("""
