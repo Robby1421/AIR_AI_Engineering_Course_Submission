@@ -285,8 +285,8 @@ elif options == "Plot Twist" :
             </style> """, 
         unsafe_allow_html=True)
     
-     st.title('Levi Ackerman's How to Get Away with Titans')
-     st.subheader("Levi Ackerman's Quest") 
+     st.title('''Levi Ackerman's How to Get Away with Titans''')
+     st.subheader("The Quest") 
      col1, col2 = st.columns([1, 1])
     
      with col1:
