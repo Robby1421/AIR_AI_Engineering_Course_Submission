@@ -66,7 +66,7 @@ with st.sidebar :
     options = option_menu(
         "🔰 Archaeological Dashboard", 
         ["Artifact Analysis", "About Us", "Episode Summarizer", "Character Finder", "Plot Twist"],
-        icons = ['tools', 'tools', 'tools', 'tools', 'tools'],
+        icons = ['tools', 'tools', 'tools', 'tools', 'upload'],
         menu_icon = "🔰", 
         default_index = 0,
         styles = {
