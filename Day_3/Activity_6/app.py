@@ -64,9 +64,9 @@ with st.sidebar :
         with r : st.empty()
 
     options = option_menu(
-        "🔰 Archaeological Dashboard", 
-        ["Artifact Analysis", "About Us", "Episode Summarizer", "Character Finder", "Plot Twist"],
-        icons = ['tools', 'tools', 'tools', 'tools', 'upload'],
+        "🔰 AOT Dashboard", 
+        ["About the Tool", "About Us", "Episode Summarizer", "Character Finder", "Plot Twist"],
+        icons = ['tools', 'user', 'search', 'search', 'upload'],
         menu_icon = "🔰", 
         default_index = 0,
         styles = {
