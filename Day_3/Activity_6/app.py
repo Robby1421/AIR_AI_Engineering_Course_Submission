@@ -65,7 +65,7 @@ with st.sidebar :
 
     options = option_menu(
         "🔰 Attack On Titan Dashboard", 
-        ["Tool", "About Us", "AOT Summarizer", "Character Finder", "Secret Weapon"],
+        ["Tool", "About Us", "AOT News Summarizer", "Character Finder", "Secret Weapon"],
         icons = ['tools', 'compass', 'search', 'search', 'lock'],
         menu_icon = "🔰", 
         default_index = 0,
