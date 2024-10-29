@@ -29,7 +29,7 @@ st.markdown("""
         background-color: #f5e6d3;
     }
     .stApp {
-        background-image: url('https://images8.alphacoders.com/505/thumb-1920-505616.png');
+        background-image: url('https://e1.pxfuel.com/desktop-wallpaper/990/47/desktop-wallpaper-attack-on-titan-survey-corps-legion-logo.jpg');
         background-size: cover;
         background-position: right center;
         background-repeat: no-repeat;
