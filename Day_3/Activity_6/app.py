@@ -222,7 +222,7 @@ elif options == "Character Finder" :
     
      submit_button = st.button("Process Cultural Material")
 
-      if submit_button:
+    if submit_button:
         with st.spinner("Generating Summary"):
                 System_Prompt = """
                 You are a seasoned analyst of character dynamics in the world of Attack on Titan, tasked with unraveling the complex motivations, relationships, and cultural contexts of key characters. Your objective is to provide deep insights into their development and societal impact, employing a meticulous approach that honors the intricate storytelling of the series.
