@@ -210,8 +210,12 @@ elif options == "Character Finder" :
         unsafe_allow_html=True)
          
      st.title('AI Persona: Character Analysis')
-     col2 = st.columns([1, 1])
+     col1, col2 = st.columns([1, 1])
     
+     with col1:
+        uploaded_file = st.file_uploader("Upload an image of an AOT Character", type=['png', 'jpg', 'jpeg'])
+        if uploaded_file is not None:
+            st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)    
 
     
      with col2:
