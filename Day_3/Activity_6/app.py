@@ -123,7 +123,7 @@ elif options == "About Us" :
      #st.title('The Team')
      st.write("## About Us")
      st.write("## Robby Jean Pombo")
-     st.image('https://media.licdn.com/dms/image/v2/C4D03AQH9eNaI91LhcQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655685408375?e=1735776000&v=beta&t=TNKxs7wPK4pMtYK1RRMct_lgyVa97sD-xVwv_44TKFU')
+     st.image('https://ci3.googleusercontent.com/mail-img-att/AGAZnRrEOlA30AmP25NDyHwIeRfr2Q0qV6v-WbQOt0nv0X-vlDIaUk8epT9y3GdpW9CIJDaC5WLmkq91I9GLgIpn6pnrBIC8V8q5GYZMwAcQ6385fSgHZ9OELjNEAIgWmLA3GvUIEsIvAoY2qPYWN7JkoqvDsds__Jp46B68pk6H2IL-ni4L8KxBotyVyQDyBwxPFQg1w4_I8Z89-A1KRguoW5pA5PJpxi8W1YcGPBqVYD2azUKqtbVzcbOeNB-KLY0lK3AyKLCGMhTGAXTdv0N6_7Bw4v_dnNHWFgcHp1dZDecEjk_7zjTxGZgENGjM6G8t6vXTSCyrBr-dT5f4Je5doK2X2lC5bZk5nRBVMMtYi3pfobdi12HBFLMHUSmRzP5W0smKCXK08mymH5OKX6qrbD3GzWlaPaPdFFUnXQHkrFguVkFlnLDYVNITNoWtpltHDS0Qkxxw52_nFM9FQqMexVqFvotmO-yVGJOWvFdHWMyFTq7ohth0m9CWFzJPoI9Z2u3TxOsPkJMQig7VFJWDLdXM6i3V9AxY_sklIwM325DpOz-LTEaFY7w1Fl6wsWLmXc1JpzCAGRsr7OCoap4tRs_CFq8DzVHLLccVZeIqnFB4vxP8TetEMSVfN9OZ3BOivv2V7QDJqluPgce8KJ0Q3pFOdtmxF3lDnmHoObgfh_LgY8FdBzlcUM1OWHE8a7gG3TkyK0-z4Gm03EqS0FefUg_L7HnHV1CSAyAgqWxupg9eaFZ_-7TxL5PocutTHnZyr5lhZ3wCXUYR50ecf1Ic2tGLy-MkzF6nepcER_2tDkwam8G7U2hn6rQFTkB-dGIWgZQ6LYnPBPpYz_PVWlJQeK21v3EbjN_e6n6Kx41lI9iyp2O-fCDXYNeH3xwQP_qOpdvezmETmeuLG6Yh3ZVAJ4IFUv23_H6QoA1mewBDmhpDPoILJLZdaBrkVt97fhwZss3q_q9Ph8N1R6tBkKeeI82QaV_nk4ruo_YF5_H_4dsp54K3DBA5U3v1RxnspDMlkom78TpaxNtgqgoozVTGerM=s0-l75-ft')
      st.write("## AI/ML Engineer")
      st.write("## Connect with me via Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
      st.write("\n")
@@ -285,12 +285,12 @@ elif options == "Plot Twist" :
             </style> """, 
         unsafe_allow_html=True)
     
-     st.title('Indiana Jones: The Relic Hunter and Seasoned Professor')
-     st.subheader("The Relic Hunter's Lab") 
+     st.title('Quest for Adventure')
+     st.subheader("Eren Jaeger's Quest") 
      col1, col2 = st.columns([1, 1])
     
      with col1:
-        uploaded_file = st.file_uploader("Present Your Artifact for Examination", type=['png', 'jpg', 'jpeg'])
+        uploaded_file = st.file_uploader("Explore More", type=['png', 'jpg', 'jpeg'])
         if uploaded_file is not None:
             st.image(uploaded_file, caption="Artifact in Review", use_column_width=True)
     
