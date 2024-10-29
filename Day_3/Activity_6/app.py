@@ -123,7 +123,7 @@ elif options == "Excavation Team" :
      st.title('Excavation Team')
      st.subheader("About Us")
      st.write("# Amber Teng")
-     st.image('AI_First_Day_3_Activity_4/images/jiu.gen_httpss.mj.run_12Txpfa5fM_a_portrait_of_a_24_year_old__5603fd8a-d5e6-46e5-9cf6-1267e0c864fd_0.png')
+     #st.image('AI_First_Day_3_Activity_4/images/jiu.gen_httpss.mj.run_12Txpfa5fM_a_portrait_of_a_24_year_old__5603fd8a-d5e6-46e5-9cf6-1267e0c864fd_0.png')
      st.write("## AI First Bootcamp Instructor")
      st.text("Connect with me via Linkedin : https://www.linkedin.com/in/angelavteng/")
      st.write("\n")
