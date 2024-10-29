@@ -295,7 +295,7 @@ elif options == "Plot Twist" :
             st.image(uploaded_file, caption="Image in Review", use_column_width=True)
     
      with col2:
-        text_input = st.text_area("Describe the Mystery of this Cultural Treasure", placeholder="Share what you know here...")
+        text_input = st.text_area("Describe the Levi Ackerman Way", placeholder="Share what you know here...")
     
      submit_button = st.button("Unlock the Secrets")
 
