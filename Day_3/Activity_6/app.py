@@ -123,7 +123,6 @@ elif options == "About Us" :
      #st.title('The Team')
      st.write("## About Us")
      st.write("## Robby Jean Pombo")
-     st.image('https://ci3.googleusercontent.com/mail-img-att/AGAZnRrEOlA30AmP25NDyHwIeRfr2Q0qV6v-WbQOt0nv0X-vlDIaUk8epT9y3GdpW9CIJDaC5WLmkq91I9GLgIpn6pnrBIC8V8q5GYZMwAcQ6385fSgHZ9OELjNEAIgWmLA3GvUIEsIvAoY2qPYWN7JkoqvDsds__Jp46B68pk6H2IL-ni4L8KxBotyVyQDyBwxPFQg1w4_I8Z89-A1KRguoW5pA5PJpxi8W1YcGPBqVYD2azUKqtbVzcbOeNB-KLY0lK3AyKLCGMhTGAXTdv0N6_7Bw4v_dnNHWFgcHp1dZDecEjk_7zjTxGZgENGjM6G8t6vXTSCyrBr-dT5f4Je5doK2X2lC5bZk5nRBVMMtYi3pfobdi12HBFLMHUSmRzP5W0smKCXK08mymH5OKX6qrbD3GzWlaPaPdFFUnXQHkrFguVkFlnLDYVNITNoWtpltHDS0Qkxxw52_nFM9FQqMexVqFvotmO-yVGJOWvFdHWMyFTq7ohth0m9CWFzJPoI9Z2u3TxOsPkJMQig7VFJWDLdXM6i3V9AxY_sklIwM325DpOz-LTEaFY7w1Fl6wsWLmXc1JpzCAGRsr7OCoap4tRs_CFq8DzVHLLccVZeIqnFB4vxP8TetEMSVfN9OZ3BOivv2V7QDJqluPgce8KJ0Q3pFOdtmxF3lDnmHoObgfh_LgY8FdBzlcUM1OWHE8a7gG3TkyK0-z4Gm03EqS0FefUg_L7HnHV1CSAyAgqWxupg9eaFZ_-7TxL5PocutTHnZyr5lhZ3wCXUYR50ecf1Ic2tGLy-MkzF6nepcER_2tDkwam8G7U2hn6rQFTkB-dGIWgZQ6LYnPBPpYz_PVWlJQeK21v3EbjN_e6n6Kx41lI9iyp2O-fCDXYNeH3xwQP_qOpdvezmETmeuLG6Yh3ZVAJ4IFUv23_H6QoA1mewBDmhpDPoILJLZdaBrkVt97fhwZss3q_q9Ph8N1R6tBkKeeI82QaV_nk4ruo_YF5_H_4dsp54K3DBA5U3v1RxnspDMlkom78TpaxNtgqgoozVTGerM=s0-l75-ft')
      st.write("## AI/ML Engineer")
      st.write("## Connect with me via Linkedin : https://www.linkedin.com/in/robbyjeanpombo/")
      st.write("\n")
