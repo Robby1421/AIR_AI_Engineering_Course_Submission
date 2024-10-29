@@ -277,7 +277,7 @@ elif options == "Plot Twist" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('https://wallpapercave.com/wp/wp6510227.jpg');
+                background-image: url('https://wallpapercave.com/wp/wp6832156.png');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
