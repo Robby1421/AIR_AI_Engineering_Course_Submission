@@ -362,7 +362,7 @@ Keep responses true to Levi’s style: concise, direct, often with a hint of sar
                 response = chat.choices[0].message.content
                 struct.append({"role": "assistant", "content": response})
                 
-                st.success("Discovery Unveiled!")
+                st.success("Secret is out!")
                 st.subheader("Curiosity Answered:")
                 st.write(response)
 
