@@ -29,7 +29,7 @@ st.markdown("""
         background-color: #f5e6d3;
     }
     .stApp {
-        background-image: url('https://wallpapercave.com/wp/wp6510227.jpg');
+        background-image: url('https://wallpapercave.com/wp/wp6832156.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -87,7 +87,7 @@ if options == "Tool" :
     st.markdown("""
             <style>
             [data-testid="stAppViewContainer"] > .main {
-                background-image: url("https://wallpapercave.com/wp/wp6510227.jpg");
+                background-image: url("https://wallpapercave.com/wp/wp6832156.png");
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -133,7 +133,7 @@ elif options == "AOT Summarizer" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('https://wallpapercave.com/wp/wp6510227.jpg');
+                background-image: url('https://wallpapercave.com/wp/wp6832156.png');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -193,7 +193,7 @@ elif options == "Character Finder" :
      st.markdown("""
             <style>
             .stApp {
-                background-image: url('https://wallpapercave.com/wp/wp6510227.jpg');
+                background-image: url('https://wallpapercave.com/wp/wp6832156.png');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
