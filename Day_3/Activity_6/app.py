@@ -29,9 +29,9 @@ st.markdown("""
         background-color: #f5e6d3;
     }
     .stApp {
-        background-image: url('https://images8.alphacoders.com/505/thumb-1920-505616.png');
+        background-image: url('https://www.deviantart.com/vk-for-da-win/art/Attack-on-Titan-Eren-Jaeger-861176354');
         background-size: cover;
-        background-position: right center;
+        background-position: center;
         background-repeat: no-repeat;
     }
     .stButton>button {
