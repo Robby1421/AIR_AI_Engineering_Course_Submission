@@ -1,0 +1,95 @@
+## **Documentation for Data Governance Agents**
+
+### **1. Agent Descriptions**
+
+- **Data Quality Monitoring Agent**:
+  - **Role**: Ensures the cleanliness, integrity, and consistency of data by cleaning non-numeric characters, checking for missing values, identifying duplicates, and verifying data types.
+  - **Objective**: To prepare data for accurate analysis and to ensure that data quality issues (like missing values and incorrect data types) are addressed.
+
+- **Data Lineage Tracking Agent**:
+  - **Role**: Tracks the flow of data throughout the system, recording its source, transformations, and destinations.
+  - **Objective**: To provide transparency into the data pipeline, enabling stakeholders to trace the data's lifecycle from its origin to its final destination and transformations along the way.
+
+- **Data Security Compliance Agent**:
+  - **Role**: Ensures that the data adheres to security policies and complies with legal regulations such as GDPR, HIPAA, or other industry-specific data protection standards.
+  - **Objective**: To ensure the dataset is secure, that sensitive data is handled appropriately, and that the data processing workflow complies with data protection regulations.
+
+---
+
+### **2. Analysis Methodology**
+
+- **Data Quality Monitoring**:
+  - **Method**: Clean the dataset by removing non-numeric characters (like the ₱ symbol), convert relevant columns to numeric values, and then perform checks for missing values, duplicate rows, and data type inconsistencies. This helps in preparing the dataset for further analysis by ensuring high data quality.
+  
+- **Data Lineage Tracking**:
+  - **Method**: Track the data through different stages of its lifecycle: from source to transformations, and eventually to its destination. The lineage is logged with key details, such as the column names, transformation operations, and final destination, allowing stakeholders to trace data flow.
+  
+- **Data Security Compliance**:
+  - **Method**: Perform checks on the dataset for sensitive information. Ensure that sensitive columns (such as those containing personally identifiable information) are identified, and verify compliance with data security regulations like GDPR. Encryption or redaction techniques may be applied where necessary.
+
+---
+
+### **3. Final Report**
+
+After using the agents, the final report will include:
+
+- **Data Quality Report**: Summarizes the overall data quality, listing missing values, duplicates, and data types for each column.
+- **Data Lineage Report**: Details the data's source, transformations applied, and its final destination, along with any changes made during the process.
+- **Data Security Compliance Report**: Lists any sensitive data detected and ensures compliance with data protection regulations (such as GDPR, HIPAA).
+
+The reports are outputted as Pandas DataFrames for easy analysis and visualization.
+
+---
+
+### **4. Key Findings**
+
+- **Data Quality**: The dataset might have missing values or improperly formatted values (like the ₱ symbol in numerical columns), which can affect downstream analysis. The cleaning process ensures these issues are addressed.
+- **Data Lineage**: Provides transparency by showing the flow of data from its source through any transformations to its final destination. It helps in auditing and verifying the correctness of data.
+- **Security & Compliance**: Identifies any sensitive data that could be exposed, ensuring compliance with data security laws. Helps in securing the data by suggesting encryption or access control measures.
+
+---
+
+### **6. Business Recommendations**
+
+- **Data Quality**:
+  - Regularly clean the dataset and ensure that all necessary columns are properly formatted (e.g., removing symbols like ₱ and ensuring numeric fields are properly typed).
+  - Set up automated data quality checks to monitor and clean the data on a regular basis.
+
+- **Data Lineage**:
+  - Maintain a complete record of data lineage for auditing purposes, especially when dealing with sensitive customer information or compliance requirements.
+  - Use lineage data to improve troubleshooting, identify bottlenecks in data flow, and ensure accurate reporting.
+
+- **Data Security & Compliance**:
+  - Review and implement security practices that align with compliance regulations (GDPR, HIPAA, etc.), particularly in handling personal data.
+  - Encrypt sensitive data and ensure that access control mechanisms are in place to protect sensitive information.
+
+---
+
+### **7. Technical Challenges**
+
+- **Data Quality Monitoring**: Ensuring that all necessary columns are properly cleaned can be a challenge if the dataset contains various formats of non-numeric symbols, special characters, or irregularly formatted numerical values.
+  
+- **Data Lineage Tracking**: Implementing a full data lineage system requires capturing every transformation and movement of the data across different stages, which can be complex and require robust logging and tracking mechanisms.
+  
+- **Data Security & Compliance**: Ensuring full compliance with data protection regulations, especially when dealing with global datasets, requires in-depth knowledge of the regulations and how they apply to different jurisdictions.
+
+---
+
+### **6. Future Improvements**
+
+- **Data Quality Monitoring**:
+  - Extend the agent to perform more advanced quality checks, such as outlier detection, value consistency checks, and more detailed data profiling.
+  
+- **Data Lineage Tracking**:
+  - Integrate with more complex data systems (e.g., ETL pipelines, databases, cloud storage) to provide automatic tracking of data across platforms.
+  - Provide visualizations of the data lineage to make it easier for stakeholders to understand the flow of data.
+
+- **Data Security & Compliance**:
+  - Incorporate more sophisticated data privacy techniques, such as differential privacy or automated redaction, to protect sensitive data further.
+  - Extend the agent to automatically generate compliance reports tailored to specific regulations (e.g., GDPR, HIPAA).
+
+---
+
+### **Conclusion**
+
+This documentation provides a detailed overview of the data governance agents created for data quality, lineage, and security compliance. Each agent is designed to improve the overall integrity, traceability, and security of your data, helping your organization meet regulatory requirements while ensuring that your data is fit for analysis and business decisions.
